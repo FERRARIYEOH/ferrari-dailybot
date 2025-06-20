@@ -1,3 +1,5 @@
+import os
+
 print("✅ 最新 bot.py 成功部署")
 print("TOKEN:", repr(os.environ.get("TELEGRAM_TOKEN")))
 print("GROUP_ID:", repr(os.environ.get("TELEGRAM_GROUP_ID")))
