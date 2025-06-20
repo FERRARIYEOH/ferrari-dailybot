@@ -1,3 +1,4 @@
+print("🧪 TOKEN=", repr(TOKEN))
 import os
 
 print("✅ 最新 bot.py 成功部署")
