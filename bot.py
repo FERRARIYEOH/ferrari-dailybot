@@ -1,5 +1,7 @@
-print("🧪 TOKEN=", repr(TOKEN))
 import os
+
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+print("🧪 TOKEN =", repr(TOKEN))
 
 print("✅ 最新 bot.py 成功部署")
 print("TOKEN:", repr(os.environ.get("TELEGRAM_TOKEN")))
