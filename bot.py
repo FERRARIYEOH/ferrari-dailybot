@@ -1,3 +1,5 @@
+print("TOKEN:", repr(os.environ.get("TELEGRAM_TOKEN")))
+print("GROUP_ID:", repr(os.environ.get("TELEGRAM_GROUP_ID")))
 from keep_alive import keep_alive
 import telebot
 import os
